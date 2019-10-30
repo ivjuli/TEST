@@ -12,10 +12,6 @@
     margin-left: 270px;
     padding-top: 5px;
 }
-.icon {
-    fill: white;
-}
-
 .element {
     width: 300px;
     margin: auto;
@@ -30,13 +26,15 @@
     font-family: 'Arial';
     color: rgb(157, 157, 168);
     text-align: center;
+}
+.line {
     line-height: 25px;
 }
 .white {
     color: white;
 }
 .green {
-    color: green;
+    color: rgb(0, 210, 100);
 }
 .size_14 {
     font-size: 14px;
@@ -71,15 +69,49 @@
     margin-top:  15px;
 }
 .logo {
-    background-color: greenyellow;
     width: 325px;
-    height: 70px;
+    height: 55px;
+    display: flex;
+    align-items: center;
 }
 .price {
     background-color: yellow;
     width: 325px;
-    height: 70px;
+    height: 55px;
 }
 .blok_price {
-    
+    position: relative;
+    margin: auto;
+}
+.logo_icon {
+    width: 100px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo_text {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin-left: 10px;
+}
+.logo_price {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-end;
+}
+.margin-left_175 {
+    margin-left: 175px;
+}
+.margin-left_230 {
+    margin-left: 230px;
+}
+.red {
+    color: rgb(237, 81, 87);
 }
