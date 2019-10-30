@@ -3,13 +3,14 @@
     width: 375px;
     height: 812px;
     margin: auto;
+    position: relative;
 }
 .signal {
-    width: 94px;
+    width: 75px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 270px;
+    margin-left: 280px;
     padding-top: 5px;
 }
 .element {
@@ -19,9 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
-
 .text {
     font-family: 'Arial';
     color: rgb(157, 157, 168);
@@ -35,6 +34,12 @@
 }
 .green {
     color: rgb(0, 210, 100);
+}
+.size_10 {
+    font-size: 10px;
+}
+.size_12 {
+    font-size: 12px;
 }
 .size_14 {
     font-size: 14px;
@@ -92,7 +97,6 @@
 }
 .logo_text {
     width: 35px;
-    height: 35px;
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
@@ -120,4 +124,56 @@
 }
 a { 
     text-decoration: none; 
+}
+.horizontal_scroll_wrapper {
+    margin-top: 15px;
+    width: 375px;
+    height: 75px;
+    overflow: hidden;
+    overflow-x: scroll;
+    white-space:nowrap;       
+}
+.scroll {
+        border: 3px solid  rgba(118, 118, 125, 0.1);
+        border-radius: 5px;
+        display: inline-block;
+        vertical-align: top;
+        width: 205px;
+        height: 55px;
+}
+::-webkit-scrollbar {
+    display: none; 
+}
+.margin-left_55 {
+    margin-left: 50px;
+}
+.margin-left_35 {
+    margin-left: 35px;
+}
+.fon:hover {
+    background-color: rgba(118, 118, 125, 0.5);
+    
+}
+.width_center {
+    width: 305px;
+    margin: auto;
+}
+.day {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 25px;
+    
+}
+.day_fon {
+    margin: 5px;
+    width: 65px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.day_fon:hover {
+    color: white; 
+    border-radius: 5px;
+
 }
