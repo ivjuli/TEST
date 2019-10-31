@@ -122,6 +122,9 @@
 .margin_top_line {
     margin-top: 105px;
 }
+.margin_top_line_25 {
+    margin-top: 25px;
+}
 a { 
     text-decoration: none; 
 }
@@ -175,5 +178,13 @@ a {
 .day_fon:hover {
     color: white; 
     border-radius: 5px;
-
+}
+.grafik {
+    width: 355px;
+    height: 155px;
+    margin: auto;
+    margin-top: 11px;
+}
+.day_grafik:hover .grafik {
+    background-color: blue;
 }
