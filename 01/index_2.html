@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>forex</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css">
     <link rel="stylesheet" href="css/style_css.css"> 
 </head>
 <body>
@@ -15,11 +16,9 @@
     <div><img src="img/battery_status.svg" alt="battery_status" width="20px" height="20px"></div>
   </div>
   <div class="element">
-    <div><img src="img/arrow_left.svg" alt="arrow_left" width="55px" height="20px"></div>
+    <div><a href="index.html"><img src="img/arrow_left.svg" alt="arrow_left" width="55px" height="20px"></a></div>
   </div>
-  
-
-  <div class="horizontal_scroll_wrapper">
+   <div class="horizontal_scroll_wrapper">
       <div class="scroll fon margin-left_35">
         <div class="logo">
           <div class="logo_icon">
@@ -35,7 +34,6 @@
             </div>
         </div>
       </div>
-
       <div class="scroll fon">
         <div class="logo">
             <div class="logo_icon">
@@ -66,11 +64,7 @@
                 </div>
             </div>
           </div>
-
-        
-
-  </div>
-
+    </div>
   <div class="logo width_center">
       <div class="logo_icon">
         <img src="img/bitcoin.svg" alt="bitcoin" width="35px" height="35px">
@@ -84,18 +78,23 @@
           <div class="text green size_16">+2.75%</div>
         </div>
       </div>
-
-     
-
-<div class="day">
-  <div class="text size_12 fon day_fon">Day</div>
-  <div class="text size_12 fon day_fon">Week</div>
-  <div class="text size_12 fon day_fon">Month</div>
+ <div class="day">
+  <div class="day_grafik text size_12 fon day_fon">Day</div>
+  <div class="week_grafik text size_12 fon day_fon">Week</div>
+  <div class="month_grafik text size_12 fon day_fon">Month</div>
 </div>
-
-
-<div class="margin_top_line"><hr width="155px" size="3" color="60, 60, 65" /></div>
-
-</div>    
+<div class="grafik">
+  <canvas id="Day"></canvas>
+</div> 
+ <div class="grafik">
+  <canvas id="Week"></canvas>
+</div> 
+<div class="grafik">
+  <canvas id="Month"></canvas>
+</div> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
+<script src="script.js"></script>
+<div class="margin_top_line_25"><hr width="155px" size="3" color="60, 60, 65" /></div>
+</div>
 </body>
 </html>
